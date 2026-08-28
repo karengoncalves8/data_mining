@@ -1,0 +1,101 @@
+﻿ID_Cliente,Idade,Cidade,Estado,Renda,Quantidade_Compras,Valor_Total_Compras
+1,35,Fortaleza,CE,3020,3,276.66
+2,21,São Paulo,SP,2460,4,906.96
+3,,Rio de Janeiro,RJ,6890,4,1409.14
+4,26,Belo Horizonte,MG,4090,3,445.15
+5,250,Rio de Janeiro,RJ,6100,6,1322.36
+6,19,Goiânia,GO,1970,3,449.52
+7,40,Campinas,SP,,3,980.4
+8,37,Londrina,PR,4560,1,341.11
+9,40,Goiânia,GO,5140,6,1382.8
+10,34,Recife,PE,2510,1,222.49
+11,28,Fortaleza,,3220,1,110.76
+12,27,Curitiba,PR,2910,4,510.08
+13,54,São Paulo,SP,4370,2,441.95
+14,66,Recife,PE,8190,,1599.3
+15,49,Curitiba,PR,6840,7,2549.8
+16,38,São Paulo,SP,3540,8,1298.15
+17,42,São Paulo,SP,2850,7,997.57
+18,,São Paulo,SP,2100,6,1125.81
+19,32,Porto Alegre,RS,2140,1,66.18
+20,48,Recife,PE,5650,3,694.06
+21,-5,Porto Alegre,RS,2840,6,1090.46
+22,60,São Paulo,SP,5840,2,554.5
+23,64,Curitiba,PR,4450,3,703.55
+24,31,Curitiba,PR,4380,7,1824.91
+25,19,Campinas,SP,,4,877.23
+26,24,Porto Alegre,RS,1800,2,225.97
+27,48,Campinas,SP,4220,7,745.74
+28,21,Rio de Janeiro,RJ,1800,2,124.66
+29,38,Rio de Janeiro,RJ,4590,4,927.33
+30,63,Campinas,,3350,4,575.57
+31,61,São Paulo,SP,11430,6,2312.03
+32,54,Curitiba,PR,4470,3,484.77
+33,29,Uberlândia,MG,1930,5,887.68
+34,66,Londrina,PR,4870,8,1567.99
+35,27,Uberlândia,MG,6180,1,168.93
+36,24,Porto Alegre,RS,1840,,427.79
+37,22,São Paulo,SP,1800,2,188.39
+38,32,Rio de Janeiro,RJ,2140,3,457.08
+39,39,Campinas,SP,5660,4,914.17
+40,57,Londrina,XX,3410,1,142.61
+41,25,Belo Horizonte,MG,2170,6,1291.35
+42,44,Fortaleza,CE,5810,5,1254.54
+43,58,Campinas,SP,8210,4,1588.33
+44,,Belo Horizonte,MG,1800,4,489.72
+45,43,Niterói,RJ,6520,6,1997.6
+46,34,Curitiba,PR,3260,4,423.4
+47,48,Belo Horizonte,MG,1980,5,502.3
+48,29,Curitiba,PR,,2,323.76
+49,41,Salvador,BA,5050,2,449.28
+50,28,Uberlândia,MG,4900,3,875.95
+51,37,Salvador,BA,2180,2,221.55
+52,49,Rio de Janeiro,RJ,6110,11,3509.91
+53,52,Belo Horizonte,,9210,5,1520.71
+54,25,Fortaleza,CE,3530,5,510.38
+55,36,Uberlândia,MG,2390,1,126.98
+56,52,Caxias do Sul,RS,3050,2,387.74
+57,38,Salvador,BA,2030,1,136.89
+58,48,Rio de Janeiro,RJ,1800,4,555.37
+59,28,São Paulo,SP,2810,,354.44
+60,34,Recife,PE,3910,5,870.45
+61,61,Londrina,PR,8350,4,1170.46
+62,35,Belo Horizonte,MG,2610,2,341.72
+63,34,Londrina,PR,-3000,2,275.95
+64,32,Campinas,SP,2110,3,589.92
+65,31,Rio de Janeiro,RJ,4990,4,938.6
+66,26,Goiânia,GO,5160,4,1079.01
+67,,Recife,PE,5280,1,159.45
+68,47,Rio de Janeiro,RJ,3190,5,829.28
+69,23,Salvador,BA,1800,2,443.86
+70,54,São Paulo,SP,4420,2,498.05
+71,62,São Paulo,SP,,6,1150.46
+72,33,Salvador,BA,1800,1,110.84
+73,49,Niterói,RJ,3540,2,264.24
+74,57,Curitiba,PR,2180,1,246.68
+75,25,Curitiba,PR,3700,4,431.66
+76,35,São Paulo,,2910,3,709.79
+77,40,Belo Horizonte,MG,3410,3,683.82
+78,33,Goiânia,GO,4050,3,476.42
+79,54,Rio de Janeiro,RJ,4270,3,787.47
+80,18,Porto Alegre,RS,3160,4,668.75
+81,40,Campinas,SP,6110,5,1096.53
+82,44,Salvador,BA,5090,,585.8
+83,33,Goiânia,GO,3040,1,99.92
+84,59,Porto Alegre,RS,6960,4,592.94
+85,26,Campinas,SP,1970,4,752.56
+86,35,Rio de Janeiro,RJ,3010,4,561.62
+87,34,Salvador,BA,4560,5,1107.31
+88,27,São Paulo,SP,4220,-10,1053.62
+89,31,Rio de Janeiro,RJ,3310,4,722.09
+90,29,São Paulo,SP,5250,12,2150.26
+91,25,Goiânia,GO,3830,1,85.73
+92,,São Paulo,SP,4100,3,618.73
+93,42,Rio de Janeiro,RJ,5060,4,781.87
+94,26,Goiânia,GO,2530,6,878.61
+95,38,Curitiba,PR,2690,1,83.79
+96,39,Uberlândia,MG,,8,2490.02
+97,49,Porto Alegre,RS,2830,4,960.86
+98,67,Curitiba,PR,9480,5,1586.23
+99,42,Porto Alegre,,3180,1,108.17
+100,24,Belo Horizonte,MG,1800,,415.96
