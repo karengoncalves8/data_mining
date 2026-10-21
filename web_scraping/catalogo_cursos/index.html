@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Cursos</title>
+    <style>
+        :root {
+            color-scheme: light;
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+            background-color: #f3f4f6;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        header {
+            padding: 3rem 1rem 2rem;
+            color: white;
+            text-align: center;
+            background: linear-gradient(135deg, #047857, #059669);
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        article {
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 12px rgb(15 23 42 / 10%);
+        }
+
+        article h2 {
+            margin-top: 0;
+            color: #047857;
+        }
+
+        dl {
+            margin: 0;
+        }
+
+        dt {
+            margin-top: 0.75rem;
+            font-weight: bold;
+            color: #4b5563;
+        }
+
+        dt:first-child {
+            margin-top: 0;
+        }
+
+        dd {
+            margin: 0.25rem 0 0;
+        }
+
+        ul {
+            margin: 0.25rem 0 0;
+            padding-left: 1.25rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Escola Técnica Horizonte</h1>
+        <p>Conheça os cursos oferecidos neste semestre.</p>
+    </header>
+
+    <main>
+        <article class="curso">
+            <h2>Desenvolvimento Web</h2>
+            <dl>
+                <dt>Área</dt>
+                <dd>Tecnologia da Informação</dd>
+                <dt>Carga horária</dt>
+                <dd>120 horas</dd>
+                <dt>Assuntos</dt>
+                <dd>
+                    <ul class="assuntos">
+                        <li>HTML e CSS</li>
+                        <li>JavaScript</li>
+                        <li>Consumo de APIs</li>
+                    </ul>
+                </dd>
+            </dl>
+        </article>
+
+        <article class="curso">
+            <h2>Gestão Financeira</h2>
+            <dl>
+                <dt>Área</dt>
+                <dd>Administração</dd>
+                <dt>Carga horária</dt>
+                <dd>80 horas</dd>
+                <dt>Assuntos</dt>
+                <dd>
+                    <ul class="assuntos">
+                        <li>Fluxo de caixa</li>
+                        <li>Orçamento empresarial</li>
+                        <li>Análise de investimentos</li>
+                    </ul>
+                </dd>
+            </dl>
+        </article>
+
+        <article class="curso">
+            <h2>Design Gráfico</h2>
+            <dl>
+                <dt>Área</dt>
+                <dd>Artes e Comunicação</dd>
+                <dt>Carga horária</dt>
+                <dd>100 horas</dd>
+                <dt>Assuntos</dt>
+                <dd>
+                    <ul class="assuntos">
+                        <li>Teoria das cores</li>
+                        <li>Tipografia</li>
+                        <li>Identidade visual</li>
+                    </ul>
+                </dd>
+            </dl>
+        </article>
+
+        <article class="curso">
+            <h2>Ciência de Dados</h2>
+            <dl>
+                <dt>Área</dt>
+                <dd>Tecnologia da Informação</dd>
+                <dt>Carga horária</dt>
+                <dd>160 horas</dd>
+                <dt>Assuntos</dt>
+                <dd>
+                    <ul class="assuntos">
+                        <li>Estatística descritiva</li>
+                        <li>Python com Pandas</li>
+                        <li>Aprendizado de máquina</li>
+                    </ul>
+                </dd>
+            </dl>
+        </article>
+    </main>
+</body>
+</html>

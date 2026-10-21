@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Notícias</title>
+    <style>
+        :root {
+            color-scheme: light;
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+            background-color: #f3f4f6;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        header {
+            padding: 3rem 1rem 2rem;
+            color: white;
+            text-align: center;
+            background: linear-gradient(135deg, #b91c1c, #dc2626);
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 12px rgb(15 23 42 / 10%);
+        }
+
+        .categoria {
+            align-self: flex-start;
+            padding: 0.2rem 0.6rem;
+            border-radius: 999px;
+            color: #b91c1c;
+            background-color: #fee2e2;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        article h2 {
+            margin: 0.75rem 0 0.25rem;
+            color: #111827;
+        }
+
+        time {
+            color: #6b7280;
+            font-size: 0.9rem;
+        }
+
+        .resumo {
+            line-height: 1.5;
+        }
+
+        .autor {
+            margin: auto 0 0;
+            color: #4b5563;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portal Notícias Hoje</h1>
+        <p>As principais notícias do dia em um só lugar.</p>
+    </header>
+
+    <main>
+        <article class="noticia">
+            <span class="categoria">Tecnologia</span>
+            <h2>Nova geração de processadores promete dobrar a eficiência energética</h2>
+            <time datetime="2026-10-18">18 de outubro de 2026</time>
+            <p class="resumo">Fabricantes apresentaram chips que reduzem o consumo de energia em notebooks sem perda de desempenho.</p>
+            <p class="autor">Por <span>Ana Souza</span></p>
+        </article>
+
+        <article class="noticia">
+            <span class="categoria">Esportes</span>
+            <h2>Seleção feminina vence amistoso e se prepara para o torneio continental</h2>
+            <time datetime="2026-10-17">17 de outubro de 2026</time>
+            <p class="resumo">Com dois gols no segundo tempo, a equipe garantiu a vitória e animou a comissão técnica.</p>
+            <p class="autor">Por <span>Bruno Lima</span></p>
+        </article>
+
+        <article class="noticia">
+            <span class="categoria">Tecnologia</span>
+            <h2>Startup brasileira lança assistente de IA para pequenas empresas</h2>
+            <time datetime="2026-10-16">16 de outubro de 2026</time>
+            <p class="resumo">A ferramenta automatiza o atendimento ao cliente e a emissão de notas fiscais.</p>
+            <p class="autor">Por <span>Carla Mendes</span></p>
+        </article>
+
+        <article class="noticia">
+            <span class="categoria">Economia</span>
+            <h2>Inflação desacelera pelo terceiro mês consecutivo</h2>
+            <time datetime="2026-10-15">15 de outubro de 2026</time>
+            <p class="resumo">Queda nos preços dos alimentos contribuiu para o resultado abaixo das expectativas do mercado.</p>
+            <p class="autor">Por <span>Daniel Rocha</span></p>
+        </article>
+
+        <article class="noticia">
+            <span class="categoria">Cultura</span>
+            <h2>Festival de cinema independente divulga programação</h2>
+            <time datetime="2026-10-14">14 de outubro de 2026</time>
+            <p class="resumo">O evento contará com mais de 40 filmes nacionais e sessões gratuitas ao ar livre.</p>
+            <p class="autor">Por <span>Elisa Carvalho</span></p>
+        </article>
+    </main>
+</body>
+</html>

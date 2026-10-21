@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <style>
+        :root {
+            color-scheme: light;
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+            background-color: #f3f4f6;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        header {
+            padding: 3rem 1rem 2rem;
+            color: white;
+            text-align: center;
+            background: linear-gradient(135deg, #c2410c, #ea580c);
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        section {
+            margin-bottom: 2.5rem;
+        }
+
+        section h2 {
+            margin: 0 0 1rem;
+            padding-bottom: 0.5rem;
+            color: #c2410c;
+            border-bottom: 2px solid #fdba74;
+        }
+
+        .itens {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 1rem;
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            padding: 1.25rem;
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 12px rgb(15 23 42 / 10%);
+        }
+
+        article h3 {
+            margin: 0 0 0.5rem;
+        }
+
+        .descricao {
+            margin: 0 0 1rem;
+            color: #4b5563;
+            line-height: 1.4;
+        }
+
+        .preco {
+            margin: auto 0 0;
+            color: #c2410c;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurante Sabor da Casa</h1>
+        <p>Comida caseira feita com ingredientes frescos.</p>
+    </header>
+
+    <main>
+        <section class="categoria" id="pratos">
+            <h2>Pratos</h2>
+            <div class="itens">
+                <article class="item">
+                    <h3>Feijoada Completa</h3>
+                    <p class="descricao">Feijão preto com carnes selecionadas, arroz, couve, farofa e laranja.</p>
+                    <p class="preco">R$ 49,90</p>
+                </article>
+                <article class="item">
+                    <h3>Filé à Parmegiana</h3>
+                    <p class="descricao">Filé empanado coberto com molho de tomate e queijo, acompanha arroz e fritas.</p>
+                    <p class="preco">R$ 54,90</p>
+                </article>
+                <article class="item">
+                    <h3>Moqueca de Peixe</h3>
+                    <p class="descricao">Peixe cozido no leite de coco com pimentões e azeite de dendê.</p>
+                    <p class="preco">R$ 62,00</p>
+                </article>
+                <article class="item">
+                    <h3>Risoto de Cogumelos</h3>
+                    <p class="descricao">Arroz arbóreo cremoso com mix de cogumelos e parmesão.</p>
+                    <p class="preco">R$ 46,50</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="categoria" id="bebidas">
+            <h2>Bebidas</h2>
+            <div class="itens">
+                <article class="item">
+                    <h3>Suco Natural de Laranja</h3>
+                    <p class="descricao">Copo de 400 ml feito na hora.</p>
+                    <p class="preco">R$ 9,00</p>
+                </article>
+                <article class="item">
+                    <h3>Limonada Suíça</h3>
+                    <p class="descricao">Limão batido com leite condensado e gelo.</p>
+                    <p class="preco">R$ 11,00</p>
+                </article>
+                <article class="item">
+                    <h3>Refrigerante Lata</h3>
+                    <p class="descricao">Lata de 350 ml, diversos sabores.</p>
+                    <p class="preco">R$ 6,50</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="categoria" id="sobremesas">
+            <h2>Sobremesas</h2>
+            <div class="itens">
+                <article class="item">
+                    <h3>Pudim de Leite</h3>
+                    <p class="descricao">Pudim cremoso com calda de caramelo.</p>
+                    <p class="preco">R$ 14,00</p>
+                </article>
+                <article class="item">
+                    <h3>Petit Gâteau</h3>
+                    <p class="descricao">Bolo de chocolate com recheio quente e sorvete de creme.</p>
+                    <p class="preco">R$ 22,00</p>
+                </article>
+                <article class="item">
+                    <h3>Mousse de Maracujá</h3>
+                    <p class="descricao">Mousse leve e aerada com calda da fruta.</p>
+                    <p class="preco">R$ 12,50</p>
+                </article>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

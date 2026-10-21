@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Eventos</title>
+    <style>
+        :root {
+            color-scheme: light;
+            font-family: Arial, sans-serif;
+            color: #1f2937;
+            background-color: #f3f4f6;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        header {
+            padding: 3rem 1rem 2rem;
+            color: white;
+            text-align: center;
+            background: linear-gradient(135deg, #1d4ed8, #2563eb);
+        }
+
+        header h1 {
+            margin: 0 0 0.5rem;
+        }
+
+        header p {
+            margin: 0;
+        }
+
+        main {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+            padding: 1.5rem;
+            background-color: white;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 12px rgb(15 23 42 / 10%);
+        }
+
+        article h2 {
+            margin-top: 0;
+            color: #1d4ed8;
+        }
+
+        dl {
+            margin: 0;
+        }
+
+        dt {
+            margin-top: 0.75rem;
+            font-weight: bold;
+            color: #4b5563;
+        }
+
+        dt:first-child {
+            margin-top: 0;
+        }
+
+        dd {
+            margin: 0.25rem 0 0;
+        }
+
+        ul {
+            margin: 0.25rem 0 0;
+            padding-left: 1.25rem;
+        }
+
+        .inscricao {
+            display: inline-block;
+            margin-top: auto;
+            padding-top: 1.25rem;
+            color: #1d4ed8;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Agenda de Eventos</h1>
+        <p>Encontre palestras e encontros para ampliar seus conhecimentos.</p>
+    </header>
+
+    <main>
+        <article>
+            <h2>Introdução à Ciência de Dados</h2>
+            <dl>
+                <dt>Data</dt>
+                <dd><time datetime="2026-11-05">5 de novembro de 2026</time></dd>
+                <dt>Horário</dt>
+                <dd><time datetime="2026-11-05T19:00">19h às 21h</time></dd>
+                <dt>Local</dt>
+                <dd>Auditório FATEC, São Paulo - SP</dd>
+                <dt>Palestrante</dt>
+                <dd>Mariana Costa</dd>
+            </dl>
+            <a class="inscricao" href="https://www.sympla.com.br/" target="_blank" rel="noopener noreferrer">Inscreva-se</a>
+        </article>
+
+        <article>
+            <h2>Workshop de Visualização de Dados</h2>
+            <dl>
+                <dt>Data</dt>
+                <dd><time datetime="2026-11-12">12 de novembro de 2026</time></dd>
+                <dt>Horário</dt>
+                <dd><time datetime="2026-11-12T14:00">14h às 17h</time></dd>
+                <dt>Local</dt>
+                <dd>Laboratório de Informática 2, FATEC Jundiaí</dd>
+                <dt>Palestrante</dt>
+                <dd>Rafael Mendes</dd>
+            </dl>
+            <a class="inscricao" href="https://www.sympla.com.br/" target="_blank" rel="noopener noreferrer">Inscreva-se</a>
+        </article>
+
+        <article>
+            <h2>Encontro sobre Inteligência Artificial</h2>
+            <dl>
+                <dt>Data</dt>
+                <dd><time datetime="2026-11-19">19 de novembro de 2026</time></dd>
+                <dt>Horário</dt>
+                <dd><time datetime="2026-11-19T18:30">18h30 às 20h30</time></dd>
+                <dt>Local</dt>
+                <dd>Centro Cultural da Juventude, São Paulo - SP</dd>
+                <dt>Palestrantes</dt>
+                <dd>
+                    <ul>
+                        <li>Camila Oliveira</li>
+                        <li>Diego Martins</li>
+                    </ul>
+                </dd>
+            </dl>
+            <a class="inscricao" href="https://www.sympla.com.br/" target="_blank" rel="noopener noreferrer">Inscreva-se</a>
+        </article>
+
+        <article>
+            <h2>Seminário de Segurança da Informação</h2>
+            <dl>
+                <dt>Data</dt>
+                <dd><time datetime="2026-11-26">26 de novembro de 2026</time></dd>
+                <dt>Horário</dt>
+                <dd><time datetime="2026-11-26T09:00">9h às 12h</time></dd>
+                <dt>Local</dt>
+                <dd>Espaço Inovação, Campinas - SP</dd>
+                <dt>Palestrante</dt>
+                <dd>Lucas Ferreira</dd>
+            </dl>
+            <a class="inscricao" href="https://www.sympla.com.br/" target="_blank" rel="noopener noreferrer">Inscreva-se</a>
+        </article>
+
+        <article>
+            <h2>Encontro de Carreiras em Tecnologia</h2>
+            <dl>
+                <dt>Data</dt>
+                <dd><time datetime="2026-12-03">3 de dezembro de 2026</time></dd>
+                <dt>Horário</dt>
+                <dd><time datetime="2026-12-03T18:00">18h às 21h</time></dd>
+                <dt>Local</dt>
+                <dd>Centro de Convenções Rebouças, São Paulo - SP</dd>
+                <dt>Palestrante</dt>
+                <dd>Beatriz Almeida</dd>
+            </dl>
+            <a class="inscricao" href="https://www.sympla.com.br/" target="_blank" rel="noopener noreferrer">Inscreva-se</a>
+        </article>
+    </main>
+</body>
+</html>
